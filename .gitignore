@@ -1,0 +1,6 @@
+# 忽略exe可执行文件
+*.exe
+# 忽略临时生成文件
+tempCodeRunnerFile.cpp
+#忽略json
+*.json
