@@ -7,8 +7,7 @@ ps只是一个裸指针变量，合成析构不会执行 delete ps。
 堆上new string分配的内存永远不会被释放，内存泄漏。
 如果没有自定义拷贝构造函数
 编译器生成合成拷贝构造函数，做逐成员浅拷贝：直接复制指针ps的值。
-cpp
-运行
+
 HasPtr a("hi", 1);
 HasPtr b = a; // 合成拷贝：b.ps = a.ps;
 此时a.ps和b.ps指向同一个堆 string。
