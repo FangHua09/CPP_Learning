@@ -1,3 +1,20 @@
-hello world
-hello c++
-c++ primer
+C++ programming is a powerful tool for modern software development
+Learning C++ helps programmers understand memory management and object-oriented programming
+Dynamic memory allocation is one of the most important features in C++
+Smart pointers can help programmers avoid memory leaks and pointer errors
+shared_ptr is a common smart pointer used in daily C++ development
+Text query program is a classic case for learning dynamic memory management
+This program reads text files and records every word with its line number
+When you input a word the program will search and show all matching lines
+The query result clearly displays occurrence times and original text content
+Using vector to store file content makes data access fast and convenient
+Using set to store line numbers ensures every line record is unique and ordered
+Map structure connects each word to its corresponding line number set
+C++ standard library provides many useful containers for data processing
+Learning container usage is essential for every C++ beginner programmer
+Debugging code carefully can help you find logic errors in construction function
+Initializing smart pointer is necessary before using pointer member functions
+Empty pointer dereference will cause program crash and runtime error
+Reasonable code logic and object initialization ensure program stability
+Practicing classic cases helps you master C++ dynamic memory knowledge
+Every programming practice improves your ability to write robust code
